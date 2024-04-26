@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    background-color: white;
+height: auto;
+border-radius: 30px;
+}
+
+input{
+margin: 15px;
+background-color: lightblue;
+color: indianred;
+border: none;
+border-radius: 0px 10px 0px 10px;
+}
+button{
+    color: white;
+    background-color: gold;
+    border: none;
+    border-radius: 0px 10px 0px 10px;
+    height: 23px;
+    width: 60px;
+}
+body{
+    background-color: rgb(255, 0, 0);
+    background-image: linear-gradient(to right, rgba(0, 255, 0, 0.5), rgba(0, 0, 255, 0.5)); 
+}
+ol{
+    background-color: white;
+   color: indianred;
+   cursor: pointer;
+}
+li{
+    background-color: white;
+    color: indianred;
+   
+} 
+/* ul li::before{
+    content: "";
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url("./photo_2024-04-15_19-51-08.jpg");
+    background-size: cover;
+    background-position: center;
+    left: 260px;
+}
+ul li .checked::before{
+    background-image: url("./151_check_no_delete_error_remove-512.webp");
+} */
